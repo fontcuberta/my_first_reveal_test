@@ -10,9 +10,9 @@
     "start": "grunt serve"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Ironhack",
+    "email": "info@ironhack.com",
+    "web": "http://www.ironhack.com"
   },
   "repository": {
     "type": "git",

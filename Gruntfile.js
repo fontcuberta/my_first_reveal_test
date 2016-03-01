@@ -10,7 +10,6 @@ module.exports = function(grunt) {
 			banner:
 				'/*!\n' +
 				' * reveal.js <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd, HH:MM") %>)\n' +
-				' * http://lab.hakim.se/reveal-js\n' +
 				' * MIT licensed\n' +
 				' *\n' +
 				' * Copyright (C) 2016 Hakim El Hattab, http://hakim.se\n' +
@@ -102,7 +101,7 @@ module.exports = function(grunt) {
 
 		zip: {
 			'reveal-js-presentation.zip': [
-				'index.html',
+				'test.html',
 				'css/**',
 				'js/**',
 				'lib/**',
@@ -129,7 +128,7 @@ module.exports = function(grunt) {
 				tasks: 'css-core'
 			},
 			html: {
-				files: [ 'index.html']
+				files: [ 'test.html']
 			},
 			markdown: {
 				files: [ './*.md' ]
